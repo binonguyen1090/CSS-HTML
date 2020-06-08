@@ -6,9 +6,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+.clearfix:after{
+    content: "";
+    display: table ;
+    clear: both;
+}
 .container{
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
     background-color: brown;
+}
+.blog-post {
+    background-color: green;
+    width: 75%;
+    float: left;
+}
+
+.other-post {
+    background-color: yellow;
+    width: 25%;
+    float: left;
+}
+.author-post {
+   background-color: red;
 }
